@@ -1,0 +1,106 @@
+@use "../global.scss";
+@use "../layout/header";
+body {
+  overflow-x: hidden;
+}
+.contaainer-two {
+  .main-box-card1 {
+    display: flex;
+    justify-content: space-between;
+    .main_card_left {
+      padding: 150px 0px 0px 140px;
+    }
+    .card {
+      .card-header {
+        font-family: "Cera Round Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 54px;
+        text-transform: capitalize;
+        font-feature-settings: "tnum" on, "lnum" on;
+        color: #ffffff;
+      }
+      .list-group-item {
+        background-color: #bb2339;
+      }
+      .btn {
+        color: white;
+        border: 1px solid white !important;
+      }
+      .btn-outline-light:hover {
+        color: black !important;
+      }
+    }
+    .main_card_right {
+      margin-top: 125px;
+      .col {
+        padding-left: 50px;
+        margin: 30px 0px 0px 30px;
+        width: auto;
+      }
+      .card {
+        .card-body {
+          h5 {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #242424;
+          }
+          p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 38px;
+            text-align: center;
+            color: #bb2339;
+          }
+        }
+      }
+    }
+  }
+}
+.__social_food {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 170px;
+  padding-top: 100px;
+  background: #f4f4f4;
+  .social-media-left {
+    margin: 50px 30px;
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #aaaaaa;
+    }
+  }
+  .social-media-right {
+    img {
+      width: 250px;
+      padding-right: 20px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .main-box-card1 {
+    display: flex;
+    flex-wrap: wrap;
+    // .main_card_left{
+    //     // .card{
+
+    //     // }
+    // }
+    .main_card_right {
+      .col {
+        padding-top: 25px;
+        margin: 0 auto !important;
+      }
+    }
+  }
+}

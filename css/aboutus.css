@@ -1,0 +1,76 @@
+@import "global.min.css";
+@import "../scss/layout/_header.scss";
+@import "../scss/base/_reset.scss";
+.navbar {
+  background-color: #bb2339;
+}
+.AboutPage h1 {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 150px;
+}
+
+.AboutPage .Abouts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutPage .Abouts .TextOne p {
+  width: 720px;
+  font-family: sans-serif;
+  font-style: normal;
+  padding-top: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #242424;
+  opacity: 0.8;
+}
+
+.AboutPage .Abouts .TextTwo p {
+  width: 720px;
+  font-family: sans-serif;
+  font-style: normal;
+  padding-top: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #242424;
+  opacity: 0.8;
+}
+
+@media (max-width: 720px) {
+  .AboutPage p {
+    width: 500px !important;
+  }
+  .AboutPage .Abouts img {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .AboutPage p {
+    width: 400px !important;
+  }
+  .AboutPage .Abouts img {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .AboutPage p {
+    width: 300px !important;
+  }
+  .AboutPage .Abouts img {
+    width: 300px;
+  }
+}
+@media (max-width: 300px) {
+  .AboutPage p {
+    width: 240px !important;
+  }
+  .AboutPage .Abouts img {
+    width: 240px;
+  }
+}

@@ -1,0 +1,68 @@
+@use "../global.scss";
+@use "../layout/header";
+
+.navbar {
+  background-color: #bb2339;
+}
+.news-about-txt{
+    padding: 150px 0px 100px;
+}
+.news-box{
+    .__viev__btn {
+        padding: 10px 25px;
+        margin: 50px 0px 50px 47%;
+        border-radius: 15px;
+      }
+    .__news {
+        padding-bottom: 70px;
+        .__news_txt {
+          h1 {
+            font-family: "Cera Round Pro", sans-serif;
+            padding-bottom: 50px;
+            font-weight: 500;
+            font-size: 38px;
+            line-height: 130%;
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            font-feature-settings: "tnum" on, "lnum" on;
+            color: #bb2339;
+          }
+        }
+        .card-group {
+          .card {
+            margin: 0 25px;
+            border: 1px solid #ccc;
+            h5 {
+              font-family: "Cera Round Pro", sans-serif;
+              font-weight: 500;
+              font-size: 22px !important;
+              line-height: 32px;
+              text-transform: capitalize;
+              font-feature-settings: "tnum" on, "lnum" on;
+              color: #242424;
+            }
+            p {
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              font-size: 14px !important;
+              line-height: 24px;
+              color: #aaaaaa;
+            }
+          }
+          a {
+            font-family: "Cera Round Pro", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 0.04em;
+            color: #bb2339;
+          }
+          .__read__more {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+        
+      }
+}

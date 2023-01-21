@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cera-round-pro');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-style: normal;
+}
+
+.container-two{
+	max-width: 1340px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+html{
+	scroll-behavior: smooth;
+}

@@ -1,0 +1,392 @@
+@use "../global.scss";
+@use "../base/reset";
+@use "../layout/footer";
+.navbar {
+  background-color: #bb2339;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.__container__card,
+.card__txt {
+  margin-bottom: -17px;
+  background-color: #f8f8f8;
+}
+.main-box-m1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0px;
+  background-color: #bb2339;
+  .main-box-m1-left {
+    padding-left: 100px;
+  }
+  .main-box-m1-left {
+    h3 {
+      font-family: "Cera Round Pro", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 21px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #ffffff;
+    }
+    h1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #ffffff;
+    }
+    p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      opacity: 0.7;
+    }
+  }
+}
+.populardishes {
+  position: relative;
+  left: 7rem;
+  top: 5rem;
+}
+.card-body {
+  p {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 25px !important;
+    line-height: 33px;
+    color: #bb2339;
+  }
+}
+.col {
+  width: 300px;
+  padding: 100px 0px 70px 45px;
+  margin: 0 auto;
+}
+.card__txt {
+  //     display: flex;
+  //     justify-content: space-around;
+  p {
+    font-family: "Cera Round Pro", sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #bb2339;
+  }
+}
+.main-box-food2 {
+  padding-top: 70px;
+  p {
+    font-family: "Cera Round Pro", sans-serif;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #bb2339;
+  }
+  .main__btn-h {
+    margin-left: 15px;
+    .btn {
+      margin-left: 10px !important;
+      padding: 7px 20px !important;
+    }
+  }
+  .card-body {
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      color: #bb2339;
+      margin: 0 auto;
+    }
+  }
+}
+.mariya {
+  background: #f4f4f4;
+  padding: 70px 0px;
+  .mariya__header {
+    padding-top: 50px;
+    h3 {
+      font-family: "Cera Round Pro", sans-serif;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #242424;
+    }
+    h1 {
+      font-family: "Cera Round Pro", sans-serif;
+      padding-bottom: 50px;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #242424;
+    }
+  }
+  .card-group {
+    .card {
+      margin: 0 25px;
+      border: none;
+      .card-body {
+        h5 {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 26px;
+          color: #333333;
+        }
+        p {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px !important;
+          line-height: 22px;
+          color: #333333;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+.__news {
+  padding-bottom: 70px;
+  .__news_txt {
+    h1 {
+      font-family: "Cera Round Pro", sans-serif;
+      padding-bottom: 50px;
+      font-weight: 500;
+      font-size: 38px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: #bb2339;
+    }
+  }
+  .card-group {
+    .card {
+      margin: 0 25px;
+      border: 1px solid #ccc;
+      h5 {
+        font-family: "Cera Round Pro", sans-serif;
+        font-weight: 500;
+        font-size: 22px !important;
+        line-height: 32px;
+        text-transform: capitalize;
+        font-feature-settings: "tnum" on, "lnum" on;
+        color: #242424;
+      }
+      p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px !important;
+        line-height: 24px;
+        color: #aaaaaa;
+      }
+    }
+    a {
+      font-family: "Cera Round Pro", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 16px;
+      letter-spacing: 0.04em;
+      color: #bb2339;
+    }
+    .__read__more {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .__viev__btn {
+    margin: 50px 0px 50px 45%;
+    border-radius: 25px;
+  }
+}
+.modal__bgc {
+  ._player_video {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/home/video-bg.png);
+    background-size: cover;
+    ._7_model {
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      }
+
+      /* Modal Content */
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border-radius: 8px;
+        background: linear-gradient(
+          45deg,
+          #fff000,
+          #00ff00,
+          #0099ff,
+          #001aff,
+          #a200ff,
+          #ff0055
+        );
+        background-size: 300%;
+        animation: border 12s linear infinite;
+        width: 80%;
+        .modal-content::after {
+          filter: blur(50px);
+        }
+
+        @keyframes border {
+          0%,
+          100% {
+            background-position: 0 0;
+          }
+          50% {
+            background-position: 300%;
+          }
+        }
+        iframe {
+          margin: 0 auto;
+        }
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 38px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+  button {
+    img {
+      position: absolute;
+      margin-top: 25%;
+      left: 50%;
+    }
+  }
+}
+.carousel-control-prev {
+  background: rgba(0, 0, 0, 0.9) !important;
+  width: 40px;
+  height: 40px;
+  margin-left: 89%;
+  border: 1px solid black;
+}
+
+.carousel-control-prev-icon {
+  color: #000 !important;
+}
+
+.carousel-control-next {
+  background: rgba(0, 0, 0, 0.9) !important;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.carousel-inner {
+  .active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col {
+    max-width: 300px;
+    margin: 0 5px;
+  }
+  .card-body {
+    text-align: center;
+  }
+}
+
+.__social_food {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  background: #f4f4f4;
+  .social-media-left {
+    margin: 50px 30px;
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #aaaaaa;
+    }
+  }
+  .social-media-right {
+    img {
+      width: 250px;
+      padding-right: 20px;
+    }
+  }
+}
+@media (max-width: 1050px) {
+  .main-box-m1 {
+    display: block;
+    margin: 0 auto;
+  }
+  .main-box-m1-right {
+    img {
+      width: 100%;
+      margin: 50px 50px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .main-box-m1-left {
+    h1 {
+      font-size: 50px !important;
+    }
+  }
+}

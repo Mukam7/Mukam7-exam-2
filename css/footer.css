@@ -1,0 +1,200 @@
+
+.Newslatter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+  }
+  
+  .Newslatter div {
+    Width: 70%;
+    height: 313px;
+    background: #BB2339;
+    border-radius: 16px;
+    position: relative;
+    top: 8rem;
+    box-shadow: 22px 30px 95px 1px #56565633;
+  }
+  
+  .Newslatter div h5 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 3rem;
+  }
+  
+  .Newslatter div h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 2rem;
+  }
+  
+  .Newslatter div h6 {
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  
+  .Newslatter form {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Newslatter form input {
+    width: 450px;
+    padding:  15px;
+    border-radius: 18px;
+    border: 1px solid #989899;
+    background: rgba(0, 0, 0, 0.0);
+    margin: 0 25px 0 0;
+  }
+  
+  
+  
+  .Newslatter form button {
+    width: 144px;
+    padding: 15px 0;
+    border-radius: 22px;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #989899;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  
+  .Newslatter form button:hover {
+    background: white;
+    color: #BB2339 !important;
+    transition: all 0.5s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BB2339;
+    height: 600px;
+    color: white;
+  }
+  
+  .Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    font-family: sans-serif;
+    text-align: center !important;
+    margin-top: 8rem;
+  }
+  
+  .Footer .footer_children {
+    margin: 0 55px;
+  }
+  
+  .Footer .Footer_logo h4 {
+    width: 358px;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+  
+  .Footer .Footer_logo .icons {
+    margin: 25px 0;
+  }
+  
+  .Footer .Footer_logo .icons i {
+    margin: 0 5px;
+  }
+  
+  .Footer .ContactUs h5 {
+    font-weight: 400;
+    margin: 15px;
+  }
+  .Footer .WorkingHours h4{
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  
+  .Footer .WorkingHours h5{
+    font-weight: 300;
+    line-height: 25px;
+  }
+  
+  
+  .SiteFooterfoter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+  }
+  @media (max-width: 1155px) {
+    .Forma{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+    .Footer_logo img{
+        margin-top: 2rem;
+        margin-left: -2rem;
+    }
+  }
+  
+  @media (max-width: 845px) {
+    .Newslatter form{
+        display: block;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .Newslatter form input{
+        margin: 15px 0;
+    }
+    .Newslatter form button{
+        width: 90%;
+    }
+  }
+  
+  @media (max-width: 787px) {
+    .Forma .Right{
+        width: 500px !important;
+    }
+    .Forma .Right textarea{
+        width: 330px !important;
+    }
+    footer{
+        height: 1100px;
+    }
+    .Footer{
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        margin-left: 7rem;
+        margin-top: 9rem;
+    }
+    .Footer .ContactUs{
+        margin-left: 7rem;
+    }
+    .Footer .WorkingHours{
+        margin-left: 9rem;
+    }
+  }
+  
+  

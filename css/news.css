@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cera-round-pro");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+.container-two {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+.nav-item a {
+  color: white !important;
+}
+
+.btn {
+  padding: 10px 50px;
+  border-radius: 15px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99.99999%;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.navbar-shrink {
+  height: 80px;
+  box-shadow: 0px 3px 10px rgb(161, 152, 152);
+  background-color: black;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: #bb2339;
+}
+
+.news-about-txt {
+  padding: 150px 0px 100px;
+}
+
+.news-box .__viev__btn {
+  padding: 10px 25px;
+  margin: 50px 0px 50px 47%;
+  border-radius: 15px;
+}
+.news-box .__news {
+  padding-bottom: 70px;
+}
+.news-box .__news .__news_txt h1 {
+  font-family: "Cera Round Pro", sans-serif;
+  padding-bottom: 50px;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #bb2339;
+}
+.news-box .__news .card-group .card {
+  margin: 0 25px;
+  border: 1px solid #ccc;
+}
+.news-box .__news .card-group .card h5 {
+  font-family: "Cera Round Pro", sans-serif;
+  font-weight: 500;
+  font-size: 22px !important;
+  line-height: 32px;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #242424;
+}
+.news-box .__news .card-group .card p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+.news-box .__news .card-group a {
+  font-family: "Cera Round Pro", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #bb2339;
+}
+.news-box .__news .card-group .__read__more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
